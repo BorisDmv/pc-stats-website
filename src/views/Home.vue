@@ -10,7 +10,9 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped >
+
+
 
 .home {
   /* The image used */
