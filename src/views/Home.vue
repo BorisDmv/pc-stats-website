@@ -1,6 +1,21 @@
 <template>
   <div class="home">
     <navbar></navbar>
+    <div class="content">
+      <div>
+        <div class="box1">
+          <h1>ALL THE STATS FOR
+            YOUR SYSTEM
+          </h1>
+          <p>Application with system information for your
+            computer.
+          </p>
+        </div>
+      </div>
+      <div class="box1">
+        <img src="../assets/Illustration.svg" alt="illustration">
+      </div>
+    </div>
   </div>
 </template>
 
@@ -15,3 +30,8 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+
+
+</style>
