@@ -1,30 +1,17 @@
 <template>
   <div class="home">
-    <img alt="illustration" src="../assets/Illustration.svg" />
+    <navbar></navbar>
   </div>
 </template>
 
 <script>
+import NavBar from '../components/NavBar.vue'
+
+
 export default {
-  name: "Home"
+  name: "Home",
+  components: {
+    'navbar': NavBar
+  }
 };
 </script>
-
-<style scoped >
-
-
-
-.home {
-  /* The image used */
-  background-image: url("../assets/BG.svg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-</style>
