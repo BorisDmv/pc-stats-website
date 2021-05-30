@@ -48,6 +48,14 @@ export default {
   margin-right: 70px;
   flex-grow: 1;
 
+  h1{
+    font-size: 2.5rem;
+  }
+
+  p{
+    font-size: 1.5rem;
+  }
+
   h1,p{
     text-align: left;
     margin: 0;
@@ -55,10 +63,11 @@ export default {
 }
 
 .box2{
+  margin-top: 150px;
   flex-grow: 1;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1500px) {
 .content{
   flex-direction: column;
 }
@@ -66,7 +75,6 @@ export default {
 .box{
   width: 100%;
   margin-right: 0;
-  margin-bottom: 80px;
   flex-grow: 0;
 
   h1,p{
