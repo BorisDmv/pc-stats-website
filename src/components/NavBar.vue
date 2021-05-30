@@ -11,13 +11,15 @@ export default {
 }
 </script>
 
-<style>
+<style scoped lang="scss">
 .nav-container{
     margin: auto;
-    max-width: 60%;
+    width: 100%;
     height: 50px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    position: fixed;
+    margin-bottom: 100px;
 }
 
 .logo_img{
