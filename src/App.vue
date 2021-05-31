@@ -19,7 +19,6 @@ html, body{
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #f1f1f1;
   height: 100%;
 }
