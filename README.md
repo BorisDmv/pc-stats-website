@@ -1,16 +1,5 @@
-# pc-stats-website
-
-## Project setup
+# PC Stats Website 
+ 
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+The PC STATS APP website build in vuejs 3.0 :) 
 ```

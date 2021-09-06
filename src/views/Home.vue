@@ -65,7 +65,7 @@ export default {
 .box{
   margin-top: 0;
   margin-right: 70px;
-  flex-grow: 1;
+  flex-grow: 3;
   text-align: left;
 
   h1{
@@ -74,11 +74,11 @@ export default {
 
   p{
     font-size: 1.5rem;
+    margin-bottom: 35px;
   }
 
   h1,p{
     text-align: left;
-    margin: 0;
   }
 
   .down-btn{
@@ -92,6 +92,7 @@ export default {
     border-radius: 12px;
     cursor: pointer;
     transition: ease-in-out 0.3s;
+    margin-bottom: 35px;
 
     img{
       width: 20px;
@@ -106,6 +107,8 @@ export default {
 
 .box2{
   flex-grow: 1;
+  margin-top: 35px;
+  margin-bottom: 60px;
 }
 
 @media only screen and (max-width: 1500px) {
